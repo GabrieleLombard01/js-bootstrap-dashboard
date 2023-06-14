@@ -1,0 +1,35 @@
+/*CSS reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Custom properties*/
+
+/*Pseudo-classes*/
+
+/*Generics*/
+header{
+    background-color: bisque;
+    height: 100px;
+    width: 100%;
+    
+}
+main{
+    background-color: white;
+    height: calc(100vh - 100px);
+}
+/*Utilties*/
+
+/*RIGHT BAR*/
+.right-bar{
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+    height: 100%;
+}
+
+/*LEFT CONTENTS*/
+.left-contents{
+    overflow-y: scroll;
+}
