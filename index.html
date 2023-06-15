@@ -24,15 +24,14 @@
 </head>
 <body>
     <div class="container-fluid p-0">
-
         <!--? HEADER -->
         <header class="d-flex justify-content-center align-items-center">
             <div class="col-3 col-md-2 col-xl-1">
                 <figure>
-                    <a href="#"><img class="img-fluid logo pt-2" src="img/mobile-logo.png" alt="logo"></a>
+                    <a href="#"><img class="img-fluid logo pt-2 ps-md-4" src="img/mobile-logo.png" alt="logo"></a>
                 </figure>
             </div>
-            <div class="col-7 position-relative col-md-8 col-xl-9">
+            <div class="col-7 position-relative col-md-9 col-xl-9">
                 <div class="d-flex  justify-content-center">
                     <a href="#">
                         <div class="search text-center">
@@ -42,12 +41,11 @@
                     <input class="search-bar" type="text" placeholder="Prova a cercare: Lezioni di Laravel">
                 </div>
             </div>
-            <div class="col-2 ps-lg-4 ps-xl-5 col-md-2 col-xl-2">
+            <div class="col-2 ps-lg-4 ps-xl-5 col-md-1 col-xl-2">
                 <div class="d-none d-xl-inline-block">
                     <a href="#"><i class="fa-solid fa-list fa-xl px-2"></i></a>
                     <a href="#"><i class="fa-solid fa-question fa-xl px-2"></i></a>
                     <a href="#"> <i class="fa-solid fa-ellipsis-vertical fa-xl px-2"></i></a>
-
                 </div>
                 <a href="#">
                     <i class="fa-solid fa-bell fa-xl ps-4"></i>
@@ -62,9 +60,33 @@
         <!--? MAIN CONTENT -->
         <main class="d-flex justify-content-center">
                 <!-- RIGHT BAR -->
-                <div class="right-bar col-2"></div>
+                <div class="right-bar col-2 text-center position-relative">
+                    <!--? HOME-->
+                    <div class=" p-2 p-md-3 m-1">
+                        <i class="fa-solid fa-house fa-2xl text-white"></i>
+                        <span class="text-white d-none d-xl-inline-block ps-2">Home</span>
+                    </div>
+                    <!--? SIMPLE-->
+                    <div class=" p-2 p-md-3 m-1">
+                        <i class="fa-solid fa-chart-simple fa-2xl text-white"></i>
+                        <span class="text-white d-none d-xl-inline-block ps-2">Stats</span>
+                    </div>
+                    <!--? SIGNAL-->
+                    <div class=" p-2 p-md-3 m-1">
+                        <i class="fa-solid fa-signal fa-2xl text-white"></i>
+                        <span class="text-white d-none d-xl-inline-block ps-2">Signals</span>
+                    </div>
+                    <!--? GEAR-->
+                    <div class="gear-box p-2 p-md-3 position-absolute bottom-0 m-1">
+                        <i class="text-white fa-solid fa-gear fa-2xl"></i>
+                        <span class="text-white d-none d-xl-inline-block ps-2">Admin</span>
+                    </div>
+                </div>
+
                 <!-- LEFT-CONTENTS -->
-                <div class="left-contents col-10"></div>
+                <div class="left-contents col-10">
+                    ...
+                </div>
         </main>
 
     </div>

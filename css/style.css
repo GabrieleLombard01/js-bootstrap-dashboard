@@ -17,6 +17,13 @@
 .search:hover{
     border: solid black 2px;
 }
+.right-bar div:hover{
+    border: solid whitesmoke 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.378)
+}
 /*? Generics*/
 header{
     background-color: white;
@@ -79,7 +86,14 @@ ul{
     background-color: #051e34;
     height: 100%;
 }
-
+.gear-box{
+    width: 90%;
+}
+/*? RESPONSIVE gear-box */
+@media screen and (min-width:700px) {
+		.gear-box{
+			width: 96%;
+			}}
 /*!LEFT CONTENTS*/
 .left-contents{
     overflow-y: scroll;
