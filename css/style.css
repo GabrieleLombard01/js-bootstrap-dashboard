@@ -100,3 +100,11 @@ ul{
 .left-contents{
     overflow-y: scroll;
 }
+/*R0W 1*/
+.row{
+    border: dashed red 1px;
+}
+.col{
+    border: dashed black 1px;
+
+}
