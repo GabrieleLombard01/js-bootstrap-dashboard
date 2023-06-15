@@ -42,7 +42,9 @@ ul{
     list-style-type: none;
 }
 /*Utilties*/
-
+.bg_dark{
+    background-color: rgba(0, 0, 0, 0.3);
+}
 /*!HEADER*/
 .logo{
     height: 80px;
