@@ -118,9 +118,10 @@ ul{
 .col{
     border: dashed black 1px;
 }
-.table_container{
-    border: solid black 1px;
+.card_container{
+    border: solid #afafb0 1px;
     border-radius: 5px;
+    
 }
 .avatar-size{
     width: 35px;
@@ -128,4 +129,8 @@ ul{
 .small_box{
     width: 35px;
     height: 35px;
+    border: solid #dee2e6 1px;
+    color: #afafb0;
+    border-radius: 5px;
+
 }
