@@ -41,9 +41,19 @@ a{
 ul{
     list-style-type: none;
 }
+.foot-content{
+    width: 100%;
+    height: 80px;
+    background-color: #212529;
+    position: absolute;
+    bottom: 0;
+}
 /*Utilties*/
 .bg_dark{
     background-color: rgba(0, 0, 0, 0.3);
+}
+.small_size{
+    font-size: 12px;
 }
 /*!HEADER*/
 .logo{
@@ -81,6 +91,7 @@ ul{
     margin: 5px;
     position: absolute;
     right: 0;
+    z-index: 1;
 }
 /*!RIGHT BAR*/
 .right-bar{
@@ -106,5 +117,15 @@ ul{
 }
 .col{
     border: dashed black 1px;
-
+}
+.table_container{
+    border: solid black 1px;
+    border-radius: 5px;
+}
+.avatar-size{
+    width: 35px;
+}
+.small_box{
+    width: 35px;
+    height: 35px;
 }

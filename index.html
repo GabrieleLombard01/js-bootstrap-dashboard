@@ -84,7 +84,7 @@
                 </div>
 
                 <!-- LEFT-CONTENTS -->
-                <div class="left-contents col-10">
+                <div class="left-contents col-10 position-relative">
                     <div class="d-flex justify-content-center flex-wrap flex-column flex-md-row p-3 bg-primary">
                         <div class="col text-white p-2 order-md-3 text-md-end">
                             <h4 class="d-inline-block">Nuovo studente</h4>
@@ -92,13 +92,13 @@
                         </div>
                         <div class="col text-white p-2 order-md-1">
                             <h3 class="d-inline-block">Boolean</h3>
-                            <button class="btn bg_dark text-white px-2 border-white rounded-4 mb-1">Piano blaze</button>
-                            <button class="btn bg_dark text-white px-2 border-white rounded-4 mb-1">3 App</button>
-                            <h3 class="d-inline-block">>></h3>
-                            <button class="btn bg_dark text-white border-white rounded-5 d-md-none">+</button>
-                            <button class="btn bg_dark text-white px-2 border-white rounded-4 d-none d-md-inline-block mb-1">Mobile app</button>
-                            <button class="btn bg_dark text-white px-2 border-white rounded-4 d-none d-md-inline-block mb-1">Web app</button>
-                            <button class="btn bg_dark text-white px-2 border-white rounded-4 d-none d-md-inline-block mb-1">Blog app</button>
+                            <button class="btn bg_dark text-white px-2 border-white rounded-4 mb-1  small_size">Piano blaze</button>
+                            <button class="btn bg_dark text-white px-2 border-white rounded-4 mb-1  small_size">3 App</button>
+                            <h3 class="d-inline-block  small_size">>></h3>
+                            <button class="btn bg_dark text-white border-white rounded-5 d-md-none  small_size">+</button>
+                            <button class="btn bg_dark text-white px-2 border-white rounded-4 d-none d-md-inline-block mb-1  small_size">Mobile app</button>
+                            <button class="btn bg_dark text-white px-2 border-white rounded-4 d-none d-md-inline-block mb-1 small_size">Web app</button>
+                            <button class="btn bg_dark text-white px-2 border-white rounded-4 d-none d-md-inline-block mb-1 small_size">Blog app</button>
 
                         </div>
                         <div class="col text-white p-2 order-md-2">
@@ -107,40 +107,65 @@
                         </div>
                     </div>
                     <!--ROW 1-->
-                    <div class="d-flex flex-column flex-md-row">
-                        <div class="col col-md-6 p-3">
+                    <div class="d-flex flex-column flex-xl-row">
+                        <div class="col col-xl-6 p-3">
 
-                            <table class="table table-striped">
-                                <thead>
-                                    <h2>Prossime classi</h2>
-                                    <tr>
-                                      <th>header1</th>
-                                      <th>header2</th>
-                                      <th>header3</th>
-                                    </tr>
-                                   </thead>
-                                   <tbody>
-                                     <tr>
-                                       <td>text1.1</td>
-                                       <td>text1.2</td>
-                                       <td>text1.3</td>
-                                     </tr>
-                                     <tr>
-                                       <td>text2.1</td>
-                                       <td>text2.2</td>
-                                       <td>text2.3</td>
-                                     </tr>
-                                     <tr>
-                                       <td>text3.1</td>
-                                       <td>text3.2</td>
-                                       <td>text3.3</td>
-                                     </tr>
-                                     <tr>
-                                     </tr>
-                                  </tbody>
-                            </table>
+                            <div class="table_container">
+                                <h2 class="border-bottom p-2 bg-light rounded-2">Prossime classi</h2>
+                                <table class="w-100 p-2">
+                                    <thead>
+                                      <tr class="border-bottom">
+                                        <th class="p-2">Nome</th>
+                                        <th class="p-2">Data inizio</th>
+                                        <th class="p-2">ROI</th>
+                                        <th class="p-2">Stato</th>
+                                        <th class="p-2">Azioni</th>
+                                      </tr>
+                                     </thead>
+                                     <tbody>
+                                        <tr class="border-bottom p-2">
+                                         <td  class="p-2"><img class="avatar-size img-fluid" src="img/class-avatar.jpg" alt="avatar"><span class="ps-1">Classe 75</span></td>
+                                         <td class="p-2">15 Feb 2021</td>
+                                         <td class="p-2">20%</td>
+                                         <td class="p-2">
+                                            <button type="button" class="btn btn-success text-white small_size">Done</button>
+                                         </td>
+                                         <td class="p-2">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <div class="small_box border d-inline-block text-center"></div>
+                                                <div class="ms-1 small_box border d-inline-block text-center"></div>
+                                            </div>
+                                         </td>
+                                       </tr>
+                                       <tr class="border-bottom p-2">
+                                        <td  class="p-2"><img class="avatar-size img-fluid" src="img/class-avatar.jpg" alt="avatar"><span class="ps-1">Classe 75</span></td>
+                                        <td class="p-2">15 Feb 2021</td>
+                                        <td class="p-2">20%</td>
+                                        <td class="p-2">done</td>
+                                        <td class="p-2">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <div class="small_box border d-inline-block text-center"></div>
+                                                <div class="ms-1 small_box border d-inline-block text-center"></div>
+                                            </div>
+                                        </td>
+                                      </tr>
+                                      <tr class="border-bottom p-2">
+                                        <td  class="p-2"><img class="avatar-size img-fluid" src="img/class-avatar.jpg" alt="avatar"><span class="ps-1">Classe 75</span></td>
+                                        <td class="p-2">15 Feb 2021</td>
+                                        <td class="p-2">20%</td>
+                                        <td class="p-2">done</td>
+                                        <td class="p-2">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <div class="small_box border d-inline-block text-center"></div>
+                                                <div class="ms-1 small_box border d-inline-block text-center"></div>
+                                            </div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                            </div>
                             <!----------------lista:-->
-                            <ul>
+                            <ul class="mt-5">
                                 <li>prova</li>
                                 <li>prova</li>
                                 <li>prova</li>
@@ -149,9 +174,8 @@
 
                         </div>
                         <!-- Seconda colonna-->
-                        <div class="col col-md-6">
-
-                            <div class="card w-100 m-1" style="width: 18rem;">
+                        <div class="col col-xl-6">
+                            <div class="card w-100 mt-4" style="width: 18rem;">
                                 <ul class="list-group list-group-flush">
                                   <li class="list-group-item"><input type="checkbox">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
                                   <li class="list-group-item"><input type="checkbox">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
@@ -159,7 +183,7 @@
                                 </ul>
                               </div>
 
-                            <div class="card" style="width: 18rem;">
+                            <div class="card w-100 mt-4" style="width: 18rem;">
                                 <img src="..." class="card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title">Card title</h5>
@@ -169,10 +193,8 @@
                               </div>
                         </div>
                     </div>
-                    
                 </div>
-        </main>
-
+            </main>
     </div>
 <!--! JS link -->
 <script src="js/script.js"></script>
